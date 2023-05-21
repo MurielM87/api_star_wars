@@ -1,0 +1,22 @@
+{
+  "name": "api_star_wars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurielM87/api_star_wars.git"
+  },
+  "author": "Muriel MARCHAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MurielM87/api_star_wars/issues"
+  },
+  "homepage": "https://github.com/MurielM87/api_star_wars#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
