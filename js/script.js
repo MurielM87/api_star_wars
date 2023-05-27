@@ -31,12 +31,12 @@ const APP = {
     }
     document.getElementById('nav').append(df);
   },
-  getData: (ev) => {
-    if (ev) ev.preventDefault();
+  getData: (e) => {
+    if (e) e.preventDefault();
     //show overlay / loader
     document.querySelector('.overlay').classList.add('active');
     //get the url
-    let link = ev.target;
+    let link = e.target;
     let url = link.getAttribute('data-link');
     //fetch the data
     fetch(url)

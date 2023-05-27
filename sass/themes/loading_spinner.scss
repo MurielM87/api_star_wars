@@ -60,14 +60,14 @@ body #loading_spinner {
       text-align: justify;
       position: relative;
       animation: scroll 20s linear forwards;
-      animation-delay: 1.5s;
+      animation-delay: 0.7s;
       pointer-events: none;
   
       h2 {
         font-family: "Roboto", sans-serif;
         text-align: center;
         font-size: 10vw;
-        margin-bottom: 170px;
+        margin-bottom: 200px;
       }
     }
   }
