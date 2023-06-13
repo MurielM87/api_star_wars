@@ -234,13 +234,12 @@ body #loading_spinner .wrapper .scroll_text {
   text-align: justify;
   position: relative;
   animation: scroll 20s linear forwards;
-  animation-delay: 0.7s;
   pointer-events: none;
 }
 body #loading_spinner .wrapper .scroll_text h2 {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 10vw;
+  font-size: 150px;
   margin-bottom: 200px;
 }
 @keyframes scroll {
