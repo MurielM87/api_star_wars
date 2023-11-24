@@ -48,7 +48,6 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 #nav a {
   color: orangered;
   padding: 0.25rem 1rem;
@@ -68,7 +67,7 @@ header {
 section {
   position: relative;
   width: 100%;
-  height: 55vh;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -160,27 +159,9 @@ section .star.star8 {
 .loading {
   position: fixed;
   top: 50%;
-  left: 50%;
-  font-size: 5rem;
-  color: #f9f907;
-  text-transform: uppercase;
-  animation-name: pulse;
-  animation-duration: 1s;
-  animation-direction: normal;
-  animation-iteration-count: infinite;
+  left: 40%;
 }
 
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 body #loading_spinner {
   overflow: hidden;
   background: black;
